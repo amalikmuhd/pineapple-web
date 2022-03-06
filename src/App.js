@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Global } from "./Global";
+
+import { Container } from "./Container.styled";
+import { TVContainer, Tv, Title, ChangeableImage } from "./App.styled";
+
+import TVImage from "./home_background.png";
+import Fruit from "./fruit8.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Global />
+      <Container>
+        <TVContainer>
+          <Tv src={TVImage} />
+          {/* <ChangeableImage src={Fruit} /> */}
+          <Title>Hi, Ati I miss you!!</Title>
+        </TVContainer>
+      </Container>
+    </>
   );
 }
 
