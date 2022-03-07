@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import TVImage from "./home_background.png";
 
 export const TVContainer = styled.div`
   /* background-color: lightcoral; */
