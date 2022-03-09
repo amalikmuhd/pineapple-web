@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/pineapple-web/static/js/main.2c8c76bf.js",
+    "static/media/image-background.jpg": "/pineapple-web/static/media/image-background.e4d7f78362167d130466.jpg",
+    "static/media/home_background.png": "/pineapple-web/static/media/home_background.7d1dee576082a4f5c2a0.png",
+    "index.html": "/pineapple-web/index.html",
+    "main.2c8c76bf.js.map": "/pineapple-web/static/js/main.2c8c76bf.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2c8c76bf.js"
+  ]
+}
