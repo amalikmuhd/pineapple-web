@@ -10,7 +10,7 @@ import { collection, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from "react";
 
 function App() {
-  const fruitsLocations = collection(db, "fruit");
+  const fruitsLocations = collection(db, "fruits");
 
   const [getFruit, setFruits] = useState([]);
 
@@ -20,7 +20,7 @@ function App() {
     });
   });
 
-  const gdt = "assets/fruit" + getFruit.map((name) => name.name) + ".png";
+  const gdt = "assets/fruit" + getFruit.map((name) => name.number) + ".png";
 
   return (
     <>
@@ -28,6 +28,7 @@ function App() {
       <Container>
         <TVContainer>
           <Tv src={TVImage} />
+          {console.log(gdt)}
           <ChangeableImage src={gdt} />
         </TVContainer>
       </Container>
