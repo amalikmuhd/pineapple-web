@@ -28,4 +28,8 @@ export const ChangeableImage = styled.img`
   bottom: 47rem;
   right: 5rem;
   width: 18%;
+
+  @media only screen and (max-width: 480px) {
+    bottom: 37rem;
+  }
 `;
